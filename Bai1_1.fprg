@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="Bai1_1"/>
+        <attribute name="authors" value="HP"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-09-25 08:30:34 AM"/>
+        <attribute name="created" value="SFA7REVTS1RPUC1DQU5OM1JROzIwMjUtMDktMjU7MDg6MTk6MzggQU07MjUyMA=="/>
+        <attribute name="edited" value="SFA7REVTS1RPUC1DQU5OM1JROzIwMjUtMDktMjU7MDg6MzA6MzQgQU07MTsyNjE3"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a" type="Integer" array="False" size=""/>
+            <declare name="s" type="Real" array="False" size=""/>
+            <output expression="&quot;nhap canh a: &quot;" newline="True"/>
+            <input variable="a"/>
+            <declare name="h" type="Integer" array="False" size=""/>
+            <output expression="&quot;nhap chieu cao: &quot;" newline="True"/>
+            <input variable="h"/>
+            <assign variable="s" expression="1/2*(a*h)"/>
+            <output expression="&quot;dien tich: &quot;&amp;S" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
